@@ -3,11 +3,11 @@
 const express = require('express');
 const path = require('path')
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 1789;
 
 app.get('/', (req, res)=>{
     res.set('Content-Type', 'text/html');
-    res.status(200).send("<h1>Bienvenido al puerto 1789 (fecha de la revolución francesa)</h1>");
+    res.status(200).send("<h1>Bienvenido al servidor. No sé qué puerto use porque eso lo asigna Render</h1>");
 });
 
 // --- RUTAS DE LA API REST (Operaciones CRUD) ---
