@@ -1,0 +1,7 @@
+# Excluir la carpeta node_modules
+node_modules/
+
+# Excluir archivos .env
+.env
+.env.*
+!.env.example
